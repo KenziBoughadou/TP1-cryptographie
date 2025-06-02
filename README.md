@@ -1,16 +1,16 @@
 # TP1 – Cryptographie et Sécurisation Applicative
 
-Ce projet a été réalisé dans le cadre du **TP 1 de Cryptographie** (cours de Boris Rose, 2 juin 2025).  
+Ce projet a été réalisé dans le cadre du **TP 1 de Cryptographie**.  
 Il illustre la distinction entre **hachage** et **chiffrement**, l’utilisation de **HMAC** via JWT, et la mise en œuvre de bonnes pratiques de développement sécurisé.
 
-## 🎯 Objectifs pédagogiques
+## Objectifs pédagogiques
 
 - Distinguer le hachage (ex: bcrypt) du chiffrement (ex: HMAC)
 - Utiliser les tokens signés HMAC (JWT) dans un contexte applicatif
 - Implémenter des middlewares d’authentification et de validation
 - Utiliser un fichier `.env` pour sécuriser les secrets
 
-## 🛠️ Stack technique
+## Stack technique
 
 - **Node.js**, **Express.js**
 - **JWT** pour l’authentification avec HMAC
@@ -19,7 +19,7 @@ Il illustre la distinction entre **hachage** et **chiffrement**, l’utilisation
 - **helmet** pour sécuriser les headers HTTP
 - **express-validator** pour valider et nettoyer les entrées utilisateur
 
-## 🔐 Fonctionnalités
+## Fonctionnalités
 
 - Création d’utilisateur avec mot de passe haché
 - Authentification via token JWT (HMAC)
@@ -28,7 +28,7 @@ Il illustre la distinction entre **hachage** et **chiffrement**, l’utilisation
 - Séparation du code (routes, contrôleurs, middlewares)
 - Sécurité des entrées utilisateur (validation et sanitizing)
 
-## 🚀 Lancer le projet
+## Lancer le projet
 
 1. Cloner ou extraire le projet
 
